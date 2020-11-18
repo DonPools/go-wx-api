@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"io/ioutil"
 	"net/url"
-	"github.com/rosbit/go-wx-api/log"
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/log"
+	"github.com/donpools/go-wx-api/conf"
 )
 
 var SUCCESS_TEXT = []byte("success")

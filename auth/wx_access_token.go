@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"encoding/json"
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/conf"
 )
 
 type AccessToken struct {

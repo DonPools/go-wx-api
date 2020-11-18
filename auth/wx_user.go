@@ -5,7 +5,7 @@ import (
 	"time"
 	"strings"
 	"encoding/json"
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/conf"
 )
 
 type WxUserInfo map[string]interface{} // 由于文档上sex是string类型，实际是整型。干脆不用struct解析了

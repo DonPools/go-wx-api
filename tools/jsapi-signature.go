@@ -1,8 +1,8 @@
 package wxtools
 
 import (
-	"github.com/rosbit/go-wx-api/auth"
-	"github.com/rosbit/go-wx-api/msg"
+	"github.com/donpools/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/msg"
 	"crypto/sha1"
 	"time"
 	"fmt"

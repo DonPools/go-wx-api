@@ -22,7 +22,7 @@ go-wx-api已经对公众号常用的消息(文本框架输入、发语音等)、
 
     ```go
     import (
-        "github.com/rosbit/go-wx-api/msg"
+        "github.com/donpools/go-wx-api/msg"
         "fmt"
     )
 
@@ -56,8 +56,8 @@ go-wx-api已经对公众号常用的消息(文本框架输入、发语音等)、
 package main
 
 import (
-	"github.com/rosbit/go-wx-api/conf"
-	"github.com/rosbit/go-wx-api"
+	"github.com/donpools/go-wx-api/conf"
+	"github.com/donpools/go-wx-api"
 	"net/http"
 	"fmt"
 )
@@ -99,7 +99,7 @@ func main() {
 	// 步骤3. 设置http路由，启动http服务
 	http.HandleFunc(service, wxapi.Echo)     // 用于配置
 	http.HandleFunc(service, wxapi.Request)  // 用于实际执行公众号请求，和wxapi.Echo只能使用一个。
-	                                         // 可以使用支持高级路由功能的web框架同时设置，参考 github.com/rosbit/go-wx-api/samples/wx-echo-server
+	                                         // 可以使用支持高级路由功能的web框架同时设置，参考 github.com/donpools/go-wx-api/samples/wx-echo-server
 	http.ListenAndServe(fmt.Sprintf(":%d", listenPort), nil)
 }
 ```
@@ -112,8 +112,8 @@ func main() {
 package main
 
 import (
-	"github.com/rosbit/go-wx-api/conf"
-	"github.com/rosbit/go-wx-api"
+	"github.com/donpools/go-wx-api/conf"
+	"github.com/donpools/go-wx-api"
 	"net/http"
 	"fmt"
 )

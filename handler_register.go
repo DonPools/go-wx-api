@@ -4,8 +4,8 @@
 package wxapi
 
 import (
-	"github.com/rosbit/go-wx-api/msg"
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/msg"
+	"github.com/donpools/go-wx-api/auth"
 )
 
 // 函数签名定义，各消息结构定义见msg_receive.go，返回结果结构定义见msg_reply.go

@@ -1,4 +1,4 @@
-module github.com/rosbit/go-wx-api
+module github.com/donpools/go-wx-api
 
 require (
 	github.com/beevik/etree v1.1.0

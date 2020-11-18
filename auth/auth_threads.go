@@ -8,7 +8,7 @@
 package wxauth
 
 import (
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/conf"
 	"net/http/httputil"
 	"encoding/json"
 	"io/ioutil"

@@ -2,7 +2,7 @@ package wxtools
 
 import (
 	"fmt"
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/auth"
 )
 
 func SetTemplateIndustry(accessToken string, industryIds [2]string) ([]byte, error) {

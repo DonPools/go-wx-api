@@ -2,10 +2,10 @@ package wxapi
 
 import (
 	"io"
-	"github.com/rosbit/go-wx-api/auth"
-	"github.com/rosbit/go-wx-api/msg"
-	"github.com/rosbit/go-wx-api/log"
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/msg"
+	"github.com/donpools/go-wx-api/log"
+	"github.com/donpools/go-wx-api/conf"
 )
 
 type WxHandler struct {

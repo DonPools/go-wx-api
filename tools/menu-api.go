@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 	"os"
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/auth"
 )
 
 func CreateMenu(accessToken string, menuJsonFile string) ([]byte, error) {

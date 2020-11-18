@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 	"strings"
-	"github.com/rosbit/go-wx-api/msg"
+	"github.com/donpools/go-wx-api/msg"
 )
 
 /**

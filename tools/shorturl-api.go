@@ -1,7 +1,7 @@
 package wxtools
 
 import (
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/auth"
 	"fmt"
 	"encoding/json"
 )

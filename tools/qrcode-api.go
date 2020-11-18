@@ -3,7 +3,7 @@ package wxtools
 import (
 	"fmt"
 	"encoding/json"
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/auth"
 )
 
 func CreateTempQrIntScene(accessToken string, sceneId int, expireInSec int) (ticketURL2ShowQrCode, urlIncluedInQrcode string, err error) {

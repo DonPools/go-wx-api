@@ -10,8 +10,8 @@ package wxapi
 
 import (
 	"net/http"
-	"github.com/rosbit/go-wx-api/log"
-	"github.com/rosbit/go-wx-api/auth"
+	"github.com/donpools/go-wx-api/log"
+	"github.com/donpools/go-wx-api/auth"
 )
 
 // 用于微信服务号设置

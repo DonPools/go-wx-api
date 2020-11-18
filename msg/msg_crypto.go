@@ -17,7 +17,7 @@ import (
 	"time"
 	"bytes"
 	"io"
-	"github.com/rosbit/go-wx-api/conf"
+	"github.com/donpools/go-wx-api/conf"
 )
 
 func init() {
